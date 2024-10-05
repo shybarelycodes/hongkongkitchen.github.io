@@ -411,3 +411,19 @@ li {
       margin: 0;
     }
   }
+
+  /* Default image style */
+.hero-image {
+    width: 100%; /* Ensures the image takes the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Scale the image specifically for phones (screens 768px wide or smaller) */
+@media (max-width: 768px) {
+    .hero-image {
+        transform: scale(0.8); /* Scales the image down to 80% of its original size */
+        transition: transform 0.3s ease; /* Optional: smooth transition effect */
+        width: 100%; /* Keep the image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
