@@ -60,8 +60,8 @@ nav ul li a:hover {
 
 
 .hero {
-    background-image: url('your-image-url.jpg');
-    height: 600px;
+    background-image: url('hongkong.jpg'); 
+    height: 600px; 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -69,6 +69,15 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        height: 300px; /* Smaller height for mobile devices */
+        background-size: contain; /* Change to 'contain' to see the whole image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+    }
 }
 
 .hero h1 {
