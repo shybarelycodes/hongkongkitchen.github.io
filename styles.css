@@ -73,10 +73,10 @@ nav ul li a:hover {
 
 
 @media (max-width: 768px) {
-    .hero {
-        height: 300px; /* Smaller height for mobile devices */
-        background-size: contain; /* Change to 'contain' to see the whole image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
+    .hero-image {
+        width: 80%; /* Adjust this width as needed for mobile */
+        max-width: 300px; /* Optional: set a maximum width */
+        height: auto; /* Maintains the aspect ratio */
     }
 }
 
