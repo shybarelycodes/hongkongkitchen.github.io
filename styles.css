@@ -421,7 +421,7 @@ li {
 /* Scale the image specifically for phones (screens 768px wide or smaller) */
 @media (max-width: 768px) {
     .hero-image {
-        transform: scale(0.1); /* Scales the image down to 80% of its original size */
+        transform: scale(1.134); /* Scales the image down to 80% of its original size */
         transition: transform 0.3s ease; /* Optional: smooth transition effect */
         width: 100%; /* Keep the image responsive */
         height: auto; /* Maintain aspect ratio */
