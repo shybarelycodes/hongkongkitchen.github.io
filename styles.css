@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d8b61f;
+    background-color: #e2b24c;
     color: #ffffff;
 }
 
@@ -14,11 +14,12 @@ a {
 
 
 header {
-    background-color: #d8b61f;
+    background-color: #e2b24c;
     padding: 20px;
-    border-bottom: 1px solid #d8b61f;
+    border-bottom: 1px solid #e2b24c;
     text-align: center;
 }
+
 
 nav {
     background-color: #111;
